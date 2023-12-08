@@ -18,7 +18,7 @@ function Hero() {
       <h2 data-aos="fade-up" data-aos-delay="400">This is My Official Protfolio Website</h2>
       <div data-aos="fade-up" data-aos-delay="600">
         <div className="text-center text-lg-start">
-          <a href="https://drive.google.com/file/d/1AaZAJTpcBlWlaxsnIIGc6ILZosBSvxOx/view?usp=sharing" target={'_blank'} className="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+          <a href="https://drive.google.com/file/d/1Ij2JAyB7h27-gE0kzI4autdn90LL3jS7/view?usp=sharing" target={'_blank'} rel="noopener noreferrer" className="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
             <span>Show Resume</span>
             <i className="bi bi-arrow-right"></i>
           </a>

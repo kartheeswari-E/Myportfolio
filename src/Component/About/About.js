@@ -17,10 +17,10 @@ function About() {
         <p>
         A passionate Full stack developer with the goal of working on a project that solves problems with thoughtful UI design, creating intuitive, dynamic user experiences powered by strong backend. I primarily work with MERN stack among the full stack technologies. The satisfaction that I get while working and completing every project made me do more and more. And I believe, I have did something creatively.  </p>
         <div class="text-center text-lg-start">
-          <a href="https://github.com/kartheeswari-E"target={'_blank'} class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+          <a href="https://github.com/kartheeswari-E"target={'_blank'} rel="noopener noreferrer" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
           <FontAwesomeIcon className='icon-manual' icon="fa-brands fa-github" />
           </a>
-           &nbsp;  <a href="https://www.linkedin.com/in/kartheeswari-e-107746226/" target={'_blank'} class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+           &nbsp;  <a href="https://www.linkedin.com/in/kartheeswari-e-107746226/" target={'_blank'} rel="noopener noreferrer" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
        <FontAwesomeIcon className='icon-manual' icon="fa-brands fa-linkedin" />
           </a>
           &nbsp;  <a href="mailto:kartheesw2001@gmail.com"  class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">

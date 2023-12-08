@@ -47,7 +47,7 @@ function Project() {
 
 </p> */}
           <div class="portfolio-links">
-          <a href="https://splendorous-travesseiro-cb808f.netlify.app/" target="_blank"><i class="bi bi-link"></i>&nbsp;Live</a>
+          <a href="https://splendorous-travesseiro-cb808f.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i>&nbsp;Live</a>
         <a onClick={handleShow}><i class="bi bi-plus"></i>&nbsp;More</a>
   
 
@@ -64,8 +64,8 @@ function Project() {
         Created like a actual Zen Class Student Portal and the UI is more similar to the actual Zen.It have 2 main roles Student and Mentor.Concepts which i used is CRUD, Role Based Authentication,Fetch,NodeMailer.
         
         <h5 style={{"color":"blue","marginTop":"10px"}}>Source Code</h5>
-        <Button  variant="primary"><a style={{"color":"white","textDecoration":"none"}} href="https://github.com/kartheeswari-E/zen-student-dashboard-frontend." target="_blank">Frontend</a></Button>&nbsp;
-        <Button variant="primary"><a style={{"color":"white","textDecoration":"none"}}  href="https://github.com/kartheeswari-E/zen-student-dashboard-backend" target="_blank">Backend</a></Button>
+        <Button  variant="primary"><a style={{"color":"white","textDecoration":"none"}} href="https://github.com/kartheeswari-E/zen-student-dashboard-frontend." target="_blank" rel="noopener noreferrer">Frontend</a></Button>&nbsp;
+        <Button variant="primary"><a style={{"color":"white","textDecoration":"none"}}  href="https://github.com/kartheeswari-E/zen-student-dashboard-backend" target="_blank" rel="noopener noreferrer">Backend</a></Button>
         </Modal.Body>
 
       </Modal>
@@ -82,7 +82,7 @@ function Project() {
           <h4>CRM Application</h4>
           {/* <p>Web</p> */}
           <div class="portfolio-links">
-          <a href="https://heroic-palmier-84480e.netlify.app/" target="_blank"><i class="bi bi-link"></i>&nbsp;Live</a>
+          <a href="https://heroic-palmier-84480e.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i>&nbsp;Live</a>
           <a onClick={handleShow}><i class="bi bi-plus"></i>&nbsp;More</a>
   
 
@@ -98,8 +98,8 @@ function Project() {
     <Modal.Body>
     Created like a Ecommerce Website and having a Features like Solving the Customer Queries and they have a option to choose the Experts by own .Concepts which i is Used Authentication, Payment Gateway(Razorpay), Fetch, Nodemailer.
     <h5 style={{"color":"blue","marginTop":"10px"}}>Source Code</h5>
-    <Button variant="primary"><a href="https://github.com/kartheeswari-E/Crm-frontend" target="_blank">Frontend</a></Button>&nbsp;
-    <Button variant="primary"><a href="https://github.com/kartheeswari-E/Crm_backend"  target="_blank">Backend</a></Button>
+    <Button variant="primary"><a href="https://github.com/kartheeswari-E/Crm-frontend" target="_blank" rel="noopener noreferrer">Frontend</a></Button>&nbsp;
+    <Button variant="primary"><a href="https://github.com/kartheeswari-E/Crm_backend"  target="_blank" rel="noopener noreferrer">Backend</a></Button>
     </Modal.Body>
 
   </Modal> </div>
@@ -114,7 +114,7 @@ function Project() {
           <h4>International Journal Website</h4>
           {/* <p>App</p> */}
           <div class="portfolio-links">
-          <a href="https://sensational-ganache-ecf34d.netlify.app/" target="_blank"><i class="bi bi-link"></i>&nbsp;Live</a>
+          <a href="https://sensational-ganache-ecf34d.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i>&nbsp;Live</a>
           <a onClick={handleShow}><i class="bi bi-plus"></i>&nbsp;More</a>
   
 
@@ -130,8 +130,8 @@ function Project() {
     <Modal.Body>
     Created like a Ecommerce Website and having a Features like Solving the Customer Queries and they have a option to choose the Experts by own .Concepts which i is Used Authentication, Payment Gateway(Razorpay), Fetch, Nodemailer.
     <h5 style={{"color":"blue","marginTop":"10px"}}>Source Code</h5>
-    <Button variant="primary"><a href="https://github.com/kartheeswari-E/Crm-frontend" target="_blank">Frontend</a></Button>&nbsp;
-    <Button variant="primary"><a href="https://github.com/kartheeswari-E/Crm_backend"  target="_blank">Backend</a></Button>
+    <Button variant="primary"><a href="https://github.com/kartheeswari-E/Crm-frontend" target="_blank" rel="noopener noreferrer">Frontend</a></Button>&nbsp;
+    <Button variant="primary"><a href="https://github.com/kartheeswari-E/Crm_backend"  target="_blank" rel="noopener noreferrer">Backend</a></Button>
     </Modal.Body>
 
   </Modal> </div>
@@ -146,7 +146,7 @@ function Project() {
           <h4>Movie Application</h4>
           {/* <p>App</p> */}
           <div class="portfolio-links">
-          <a href="https://starlit-shortbread-1568c0.netlify.app" target="_blank"><i class="bi bi-link"></i>&nbsp;Live</a>
+          <a href="https://starlit-shortbread-1568c0.netlify.app" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i>&nbsp;Live</a>
         <a><i class="bi bi-plus"></i>&nbsp;More</a></div>
         </div>
       </div>
@@ -159,7 +159,7 @@ function Project() {
           <h4>Chat Application</h4>
           {/* <p>Card</p> */}
           <div class="portfolio-links">
-          <a href="https://legendary-tulumba-c13295.netlify.app" target="_blank"><i class="bi bi-link"></i>&nbsp;Live</a>
+          <a href="https://legendary-tulumba-c13295.netlify.app" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i>&nbsp;Live</a>
         <a><i class="bi bi-plus"></i>&nbsp;More</a> </div>
         </div>
       </div>
@@ -186,7 +186,7 @@ function Project() {
           <h4>portfolio Template-1 for Student</h4>
           {/* <p>App</p> */}
           <div class="portfolio-links">
-          <a href='https://tubular-froyo-286bef.netlify.app/' target='_blank'><i class="bi bi-link"></i>&nbsp;Live</a>
+          <a href='https://tubular-froyo-286bef.netlify.app/' target='_blank' rel="noopener noreferrer"><i class="bi bi-link"></i>&nbsp;Live</a>
         <a><i class="bi bi-plus"></i>&nbsp;More</a>  </div>
         </div>
       </div>
@@ -198,7 +198,7 @@ function Project() {
         <div class="portfolio-info">
         <h4>portfolio Template-2 for Student</h4>
           <div class="portfolio-links">
-          <a href='https://tubular-froyo-286bef.netlify.app/' target='_blank'><i class="bi bi-link"></i>&nbsp;Live</a>
+          <a href='https://tubular-froyo-286bef.netlify.app/' target='_blank' rel="noopener noreferrer"><i class="bi bi-link"></i>&nbsp;Live</a>
         <a><i class="bi bi-plus"></i>&nbsp;More</a> </div>
         </div>
       </div>
