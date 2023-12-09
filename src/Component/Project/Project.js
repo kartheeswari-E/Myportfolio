@@ -10,14 +10,25 @@ import chat from "../Images/chat.png"
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 function Project() {
+const [show, setShow] = useState(false);
+const [show1, setShow1] = useState(false);
+const [show2, setShow2]= useState(false);
+const [show3, setShow3] = useState(false);
+const [show4, setShow4] = useState(false);
 
-
-
-
-  const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  const handleClose2 = () => setShow1(false);
+  const handleShow2 = () => setShow1(true);
+  const handleClose3= () => setShow2(false);
+  const handleShow3 = () => setShow2(true);
+  const handleClose4 = () => setShow3(false);
+  const handleShow4 = () => setShow3(true);
+  const handleClose5 = () => setShow4(false);
+  const handleShow5 = () => setShow4(true);
+
+
   return <>
    <section id="project" class="portfolio">
 
@@ -83,12 +94,12 @@ function Project() {
           {/* <p>Web</p> */}
           <div class="portfolio-links">
           <a href="https://heroic-palmier-84480e.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i>&nbsp;Live</a>
-          <a onClick={handleShow}><i class="bi bi-plus"></i>&nbsp;More</a>
+          <a onClick={handleShow2}><i class="bi bi-plus"></i>&nbsp;More</a>
   
 
   <Modal
-    show={show}
-    onHide={handleClose}
+    show={show1}
+    onHide={handleClose2}
     backdrop="static"
     keyboard={false}
   >
@@ -98,8 +109,8 @@ function Project() {
     <Modal.Body>
     Created like a Ecommerce Website and having a Features like Solving the Customer Queries and they have a option to choose the Experts by own .Concepts which i is Used Authentication, Payment Gateway(Razorpay), Fetch, Nodemailer.
     <h5 style={{"color":"blue","marginTop":"10px"}}>Source Code</h5>
-    <Button variant="primary"><a href="https://github.com/kartheeswari-E/Crm-frontend" target="_blank" rel="noopener noreferrer">Frontend</a></Button>&nbsp;
-    <Button variant="primary"><a href="https://github.com/kartheeswari-E/Crm_backend"  target="_blank" rel="noopener noreferrer">Backend</a></Button>
+    <Button variant="primary"><a style={{"color":"white","textDecoration":"none"}} href="https://github.com/kartheeswari-E/Crm-frontend" target="_blank" rel="noopener noreferrer">Frontend</a></Button>&nbsp;
+    <Button variant="primary"><a style={{"color":"white","textDecoration":"none"}} href="https://github.com/kartheeswari-E/Crm_backend"  target="_blank" rel="noopener noreferrer">Backend</a></Button>
     </Modal.Body>
 
   </Modal> </div>
@@ -115,12 +126,12 @@ function Project() {
           {/* <p>App</p> */}
           <div class="portfolio-links">
           <a href="https://sensational-ganache-ecf34d.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i>&nbsp;Live</a>
-          <a onClick={handleShow}><i class="bi bi-plus"></i>&nbsp;More</a>
+          <a onClick={handleShow3}><i class="bi bi-plus"></i>&nbsp;More</a>
   
 
   <Modal
-    show={show}
-    onHide={handleClose}
+    show={show2}
+    onHide={handleClose3}
     backdrop="static"
     keyboard={false}
   >
@@ -128,10 +139,10 @@ function Project() {
       <Modal.Title>International Journal Website</Modal.Title>
     </Modal.Header>
     <Modal.Body>
-    Created like a Ecommerce Website and having a Features like Solving the Customer Queries and they have a option to choose the Experts by own .Concepts which i is Used Authentication, Payment Gateway(Razorpay), Fetch, Nodemailer.
-    <h5 style={{"color":"blue","marginTop":"10px"}}>Source Code</h5>
-    <Button variant="primary"><a href="https://github.com/kartheeswari-E/Crm-frontend" target="_blank" rel="noopener noreferrer">Frontend</a></Button>&nbsp;
-    <Button variant="primary"><a href="https://github.com/kartheeswari-E/Crm_backend"  target="_blank" rel="noopener noreferrer">Backend</a></Button>
+    Users who want to publish their article ,can use this website. It has the admin panel . Concept which I used is CRUD, Text-editor, Multer package
+to store pdf, Helmet provider, Authentication, Fetch, Node Mailer. <h5 style={{"color":"blue","marginTop":"10px"}}>Source Code</h5>
+    <Button variant="primary"><a style={{"color":"white","textDecoration":"none"}} target="_blank" rel="noopener noreferrer">Frontend (private)</a></Button>&nbsp;
+    <Button variant="primary"><a style={{"color":"white","textDecoration":"none"}} target="_blank" rel="noopener noreferrer">Backend (private)</a></Button>
     </Modal.Body>
 
   </Modal> </div>
@@ -147,7 +158,25 @@ function Project() {
           {/* <p>App</p> */}
           <div class="portfolio-links">
           <a href="https://starlit-shortbread-1568c0.netlify.app" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i>&nbsp;Live</a>
-        <a><i class="bi bi-plus"></i>&nbsp;More</a></div>
+          <a onClick={handleShow4}><i class="bi bi-plus"></i>&nbsp;More</a>
+  
+
+  <Modal
+    show={show3}
+    onHide={handleClose4}
+    backdrop="static"
+    keyboard={false}
+  >
+    <Modal.Header closeButton>
+      <Modal.Title>Movie Application</Modal.Title>
+    </Modal.Header>
+    <Modal.Body>
+    Users can get a list of Movies and can be seen the Trailer.User have a access to add, delete ,edit,like and dislike a Movie.Concept which i used is CRUD,Theme change(Dark/ Light mode).  <h5 style={{"color":"blue","marginTop":"10px"}}>Source Code</h5>
+    <Button variant="primary"><a style={{"color":"white","textDecoration":"none"}} href="https://github.com/kartheeswari-E/movieapp-frontend" target="_blank" rel="noopener noreferrer">Frontend</a></Button>&nbsp;
+    <Button variant="primary"><a style={{"color":"white","textDecoration":"none"}} href="https://github.com/kartheeswari-E/Movie-app-backend"  target="_blank" rel="noopener noreferrer">Backend</a></Button>
+    </Modal.Body>
+
+  </Modal></div>
         </div>
       </div>
     </div>
@@ -160,7 +189,26 @@ function Project() {
           {/* <p>Card</p> */}
           <div class="portfolio-links">
           <a href="https://legendary-tulumba-c13295.netlify.app" target="_blank" rel="noopener noreferrer"><i class="bi bi-link"></i>&nbsp;Live</a>
-        <a><i class="bi bi-plus"></i>&nbsp;More</a> </div>
+          <a onClick={handleShow5}><i class="bi bi-plus"></i>&nbsp;More</a>
+  
+
+  <Modal
+    show={show4}
+    onHide={handleClose5}
+    backdrop="static"
+    keyboard={false}
+  >
+    <Modal.Header closeButton>
+      <Modal.Title>Chat Application</Modal.Title>
+    </Modal.Header>
+    <Modal.Body>
+    Users who are having the same room id they can Send Messages to each other via this App. Concepts Which I used is Authentication, Socket.io, Fetch,
+NodeMailer.<h5 style={{"color":"blue","marginTop":"10px"}}>Source Code</h5>
+ <Button variant="primary"><a style={{"color":"white","textDecoration":"none"}} href="https://github.com/kartheeswari-E/chat-app-frontend" target="_blank" rel="noopener noreferrer">Frontend</a></Button>&nbsp;
+    <Button variant="primary"><a style={{"color":"white","textDecoration":"none"}} href="https://github.com/kartheeswari-E/chatapp-backend" target="_blank" rel="noopener noreferrer">Backend</a></Button>
+    </Modal.Body>
+
+  </Modal> </div>
         </div>
       </div>
     </div>
@@ -187,7 +235,7 @@ function Project() {
           {/* <p>App</p> */}
           <div class="portfolio-links">
           <a href='https://tubular-froyo-286bef.netlify.app/' target='_blank' rel="noopener noreferrer"><i class="bi bi-link"></i>&nbsp;Live</a>
-        <a><i class="bi bi-plus"></i>&nbsp;More</a>  </div>
+        </div>
         </div>
       </div>
     </div>
@@ -198,8 +246,8 @@ function Project() {
         <div class="portfolio-info">
         <h4>portfolio Template-2 for Student</h4>
           <div class="portfolio-links">
-          <a href='https://tubular-froyo-286bef.netlify.app/' target='_blank' rel="noopener noreferrer"><i class="bi bi-link"></i>&nbsp;Live</a>
-        <a><i class="bi bi-plus"></i>&nbsp;More</a> </div>
+          <a href='https://marvelous-paprenjak-e59cc1.netlify.app/' target='_blank' rel="noopener noreferrer"><i class="bi bi-link"></i>&nbsp;Live</a>
+       </div>
         </div>
       </div>
     </div>
