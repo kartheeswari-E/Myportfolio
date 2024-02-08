@@ -72,7 +72,7 @@ function About() {
                   <div>
                     <h4>Experience</h4>
                     <h5>Infodazz - Full Stack Developer(MERN)</h5>
-                    <p>April 2023 - Aug 2023</p>
+                    <p>April 2023 - Jan 2024</p>
                   </div>
                 </div>
 

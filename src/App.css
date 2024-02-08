@@ -156,3 +156,6 @@
       transition-delay: 0 !important;
     }
   }
+  #shadow-host-companion{
+    padding: 0 !important;
+  }
